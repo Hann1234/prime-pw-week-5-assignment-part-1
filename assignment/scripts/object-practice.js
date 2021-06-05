@@ -40,6 +40,9 @@ console.log('My last favorite food is:', me.favThreeFoods[me.favThreeFoods.lengt
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count.
 */
+console.log(`My current shoe count is: ${me.shoeCount}`);
+me.shoeCount += 1;
+console.log('WOW! I just got a new pair of shoes! My shoe count is now:', me.shoeCount);
 
 
 /* 5. Add a new property to an existing object.
