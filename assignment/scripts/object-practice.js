@@ -41,9 +41,9 @@ console.log('My last favorite food is:', me.favThreeFoods[me.favThreeFoods.lengt
   - Console.log your updated shoe count.
 */
 console.log(`My current shoe count is: ${me.shoeCount}`);
+//I probably shouldn't use template literals when dealing with numbers because it converts the numeric value to a string.
 me.shoeCount += 1;
 console.log('WOW! I just got a new pair of shoes! My shoe count is now:', me.shoeCount);
-
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -51,3 +51,6 @@ console.log('WOW! I just got a new pair of shoes! My shoe count is now:', me.sho
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'green';
+console.log(`My favorite color is: ${me.favoriteColor}`);
+console.log('A little more about me:', me);
